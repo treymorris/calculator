@@ -1,0 +1,41 @@
+/* {
+    border: solid 1px red;
+}*/
+
+body {
+    background-image: url("images/calculator-1475432.jpg");
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: red;
+}
+
+
+.container {
+    width: 400px;
+    margin: auto;  
+    background-color: grey; 
+}
+
+#calcbox {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    
+    
+}
+
+#display {
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+
+}
+
+#button {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+}
