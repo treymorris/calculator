@@ -38,15 +38,16 @@ h1 {
     font-weight: 900;
 }
 
-.btn {
+button {
     text-align: center;
     font-size: 20px;
+    font-weight: 700;
     padding-top: 15px;
     background-color: rgb(228, 225, 225);
     border: solid 2px black;
     border-radius: 10px;
 }
 
-#enter {
+#equals {
     grid-column: 1 / span 4;
 }
