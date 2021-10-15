@@ -27,15 +27,17 @@ h1 {
 }
 
 #display {
-    text-align: center;
+    text-align: right;
     height: 40px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
+    padding-right: 60px;
     border: solid 2px black;
     border-radius: 10px;
     background-color: rgb(82, 80, 80);
-    font-size: 30px;
+    font-size: 45px;
     font-weight: 900;
+    letter-spacing: 5px;
 }
 
 button {
