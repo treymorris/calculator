@@ -17,7 +17,7 @@ h1 {
     background-color: grey; 
     margin-top: 150px;
     border-radius: 10px;
-    border: solid 2px black;
+    border: solid 5px black;
 }
 
 #calcbox {
@@ -48,7 +48,12 @@ button {
     background-color: rgb(228, 225, 225);
     border: solid 2px black;
     border-radius: 10px;
+    transition: all .07s ease;
 }
+
+button:hover {
+    box-shadow: inset 0 0 0 5px rgb(82, 80, 80);
+  }
 
 #equals {
     grid-column: 1 / span 4;

@@ -6,8 +6,6 @@ let secondOperator = null;
 let result = null;
 const buttons = document.querySelectorAll('button');
 
-
-
 function updateDisplay() {
     const display = document.getElementById('display');
     display.innerText = displayValue;
@@ -15,8 +13,6 @@ function updateDisplay() {
         display.innerText = displayValue.substring(0, 9);
     }
 }
-  
-updateDisplay();
 
 function clickButton() {
     for(let i = 0; i < buttons.length; i++) {
